@@ -2,7 +2,8 @@
 #include<stdlib.h>
 #include<math.h>
 
-#define f(x) (x*x*x - 5*x -7 )
+// #define f(x) (x*x*x - 5*x -7 )
+#define f(x) (cos(x) - x*exp(x))
 
 int main(){
     float x0,x1,x;
